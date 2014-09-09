@@ -70,11 +70,11 @@ class AsiAds
 	{
 		asiads_removead();
 	}
-
-	static var asiads_init= nme.Loader.load("asiads_init",1);
-	static var asiads_showad = nme.Loader.load("asiads_showad",0);
-	static var asiads_hidead = nme.Loader.load("asiads_hidead",0);
-	static var asiads_removead = nme.Loader.load("asiads_removead",0);
+	
+	static var asiads_init= Lib.load("nme", "asiads_init", 1);
+	static var asiads_showad = Lib.load("nme", "asiads_showad", 0);
+	static var asiads_hidead = Lib.load("nme", "asiads_hidead", 0);
+	static var asiads_removead = Lib.load("nme", "asiads_removead", 0);
 }
 
 class AsiAdsEvent extends Event
